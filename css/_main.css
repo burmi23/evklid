@@ -1,0 +1,256 @@
+/* MAIN */
+
+.main {
+  min-height: 620px;
+}
+
+.main__wrapper {
+  position: relative;
+  min-height: 620px;
+  padding: 101px 80px;
+}
+
+.main__content {
+  position: relative;
+  z-index: 11;
+}
+
+
+
+/* ---------------SLADER------------------ */
+
+
+.main__slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.slade{
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--bg-gray);
+}
+
+.slade-1 {
+  background-image: url(../img/main-bg-3-1920.jpg);
+}
+
+.slade-2 {
+  background-image: url(../img/main-bg-1-1920.jpg);
+}
+
+.slade-3 {
+  background-image: url(../img/main-bg-2-1920.jpg);
+}
+
+/* .swiper-pagination{
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  width: 15px;
+  height: 15px;
+  bottom:15px;
+} */
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 28px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #fff;
+}
+
+
+
+
+.main__title {
+  margin-right: 48%;
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: var(--extrabold);
+  font-size: 70px;
+  line-height: 85px;
+  color: #FFFFFF;
+
+
+}
+
+.main__descr {
+  margin-right: 50%;
+  margin-bottom: 90px;
+  font-style: normal;
+  font-weight: var(--bold);
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+
+}
+
+.main__btn {
+  width: 280px;
+  height: 78px;
+  padding: 23px 37px;
+  border: none;
+  background-color: var(--orange-1-clr);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.4581px;
+  line-height: 29px;
+  text-align: center;
+  color: var(--white-clr);
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+/* Animation main */
+.main__btn:focus {
+  background-color: var(--orange-2-clr);
+}
+
+.main__btn:hover {
+  background-color: var(--orange-2-clr);
+}
+
+.main__btn:active {
+  background-color: var(--orange-3-clr);
+}
+
+/* ---------------MEDIA--------------------------- */
+
+@media (max-width: 1366px) {
+
+
+  /* MAIN */
+  .main__wrapper {
+    padding: 160px 77px;
+  }
+
+  .main__title {
+    margin-right: 0;
+    margin-bottom: 16px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .main__descr {
+    margin-right: 0;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .slade-1 {
+    background-image: url(../img/main-bg-3-1024.jpg);
+  }
+
+  .slade-2 {
+    background-image: url(../img/main-bg-1-1024.jpg);
+  }
+
+  .slade-3 {
+    background-image: url(../img/main-bg-2-1024.jpg);
+  }
+}
+
+@media (max-width: 800px) {
+
+  /* MAIN */
+
+  .main__wrapper {
+    padding: 160px 40px;
+  }
+
+  .main__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .main__descr {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+
+  .slade-1 {
+    background-image: url(../img/main-bg-3-1024.jpg);
+  }
+
+  .slade-2 {
+    background-image: url(../img/main-bg-1-768.jpg);
+  }
+
+  .slade-3 {
+    background-image: url(../img/main-bg-2-768.jpg);
+  }
+}
+
+@media (max-width: 601px) {
+
+  /* MAIN */
+
+  .main {
+    min-height: 308px;
+  }
+
+  .main__wrapper {
+    min-height: 308px;
+    padding: 60px 21px;
+  }
+
+  .main__title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .main__descr {
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .main__btn {
+    display: block;
+    width: 162px;
+    height: 41px;
+    margin: 0 auto;
+    padding: 13px 28px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .main__slider {
+    border-radius: 16px;
+  }
+  .slade-1 {
+    background-image: url(../img/main-bg-3-320.jpg);
+  }
+
+  .slade-2 {
+    background-image: url(../img/main-bg-1-320.jpg);
+  }
+
+  .slade-3 {
+    background-image: url(../img/main-bg-2-320.jpg);
+  }
+}

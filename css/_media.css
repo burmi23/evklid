@@ -1,0 +1,513 @@
+@media (max-width: 1536px) {
+
+  /* ABOUT-US */
+  .about-us__bottom {
+    flex-wrap: wrap;
+  }
+
+  .about-us {
+    padding-top: 36px;
+  }
+
+  .about-us__left {
+    width: 100%;
+    min-height: 640px;
+    margin-right: 0;
+    margin-bottom: 31px;
+    background: url(../img/about-us-bg1024.jpg) center top / cover no-repeat;
+  }
+
+  .about-us__right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .about-us__descr {
+    margin-bottom: 60px;
+  }
+
+  .left__tx {
+    margin-right: 20%;
+  }
+
+  .right__option {
+    width: 50%;
+    padding: 68px 30px 65px 317px;
+  }
+
+  .right__option:not(:last-child) {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+
+  .right__title {
+    margin-bottom: 10px;
+  }
+
+  .option-1,
+  .option-2 {
+    background-position: center left 76px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    padding-top: 51px;
+  }
+
+  .footer__wrap {
+    justify-content: flex-start;
+  }
+
+  .footer__contacts {
+    margin-right: 132px;
+  }
+
+  .footer__descr {
+    display: none;
+  }
+
+  .form {
+    min-width: calc(541 / 924 * 100%);
+    margin-right: 0;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 243px;
+
+  }
+
+
+}
+
+@media (max-width: 1366px) {
+
+
+  /* ABOUT-US */
+
+  .about-us {
+    padding-top: 36px;
+  }
+
+  .about-us__bottom {
+    flex-wrap: wrap;
+  }
+
+  .about-us__left {
+    width: 100%;
+    min-height: 640px;
+    margin-right: 0;
+    margin-bottom: 31px;
+    background: url(../img/about-us-bg1024.jpg) center center / cover no-repeat;
+  }
+
+  .about-us__right {
+    display: block;
+    width: 100%;
+  }
+
+  .right__option {
+    width: 100%;
+    padding: 68px 116px 65px 317px;
+  }
+
+  .right__option:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .about-us__descr {
+    margin-bottom: 60px;
+  }
+
+  .left__tx {
+    margin-right: 20%;
+  }
+
+  .right__option {
+    padding: 68px 117px 65px 317px;
+  }
+
+  .right__title {
+    margin-bottom: 10px;
+  }
+
+  .option-1,
+  .option-2 {
+    background-position: center left 76px;
+  }
+
+  /* QUESTION */
+
+  .question {
+    padding-top: 35px;
+    margin-bottom: 80px;
+  }
+
+  .accordion__btn {
+    font-size: 20px;
+    padding-right: 145px;
+    padding-bottom: 30px;
+    padding-top: 29px;
+  }
+
+  .accordion__item:first-child .accordion__btn {
+    padding-top: 25px;
+  }
+
+  .accordion__text {
+    width: 72%;
+    line-height: 32px;
+  }
+
+
+
+}
+
+@media (max-width: 1023px) {
+
+  /* QUESTION */
+
+  .question {
+    margin-bottom: 116px;
+  }
+
+  /* FOOTER */
+
+  .footer .footer__wrap {
+    flex-direction: column-reverse;
+  }
+
+  .form {
+    width: 81%;
+  }
+
+  .form__title {
+    margin-bottom: 27px;
+  }
+
+  .form__text {
+    margin-bottom: 28px;
+  }
+
+  .contacts__list {
+    display: none;
+  }
+
+  .form__btn {
+    margin-bottom: 48px;
+  }
+
+  .footer__img-link {
+    outline: none;
+    margin-bottom: 14px;
+  }
+
+
+
+
+}
+
+
+
+@media (max-width: 800px) {
+
+  /* ABOUT-US */
+
+  .about-us__descr {
+    margin-bottom: 52px;
+  }
+
+  .about-us__left {
+    width: 100%;
+    min-height: 650px;
+    margin-right: 0;
+    margin-bottom: 31px;
+    background: url(../img/about-us-bg768.jpg) center center / cover no-repeat;
+  }
+
+  .left__descr {
+    padding-top: 34px;
+    padding-right: 41px;
+    padding-bottom: 34px;
+    padding-left: 40px;
+  }
+
+  .left__tx {
+    margin-right: max(47px);
+  }
+
+  .right__option {
+    /* min-height: 235px; */
+    padding: 40px 46px 34px 170px;
+    background: url(../icons/about-us-icon-1.svg) center left 40px / 114px 99px no-repeat;
+  }
+
+  .option-1 {
+    background: url(../icons/about-us-icon-2.svg) center left 40px / 114px 99px no-repeat;
+  }
+
+  /* QUESTION */
+
+  .question {
+    padding-top: 25px;
+    margin-bottom: 114px;
+  }
+
+  .question .title-section {
+    line-height: 59px;
+    margin-bottom: 33px;
+
+  }
+
+  .accordion__btn {
+    font-size: 20px;
+    padding-right: 92px;
+    min-height: 111px;
+    padding-top: 32px;
+    padding-bottom: 28px;
+  }
+
+  .accordion__item:first-child .accordion__btn {
+    padding-top: 30px;
+  }
+
+  .accordion__text {
+    width: 72%;
+    line-height: 32px;
+  }
+
+}
+
+
+@media (max-width: 601px) {
+
+  /* ABOUT-US */
+
+  .about-us {
+    padding-top: 60px;
+  }
+
+  .about-us .title-section {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about-us__descr {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 14px;
+  }
+
+  .about-us__left {
+    min-height: 300px;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 0;
+    margin-bottom: 8px;
+    background: url(../img/about-us-bg320.jpg) center top / cover no-repeat;
+  }
+
+  .left__descr {
+    display: none;
+  }
+
+  .about-us__tx-mob {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about-us__btn-mob {
+    display: block;
+    width: 162px;
+    min-height: 39px;
+    padding: 12px 40px;
+    margin-bottom: 32px;
+    border: 3px solid var(--orange-1-clr);
+    border-radius: 8px;
+    font-size: var(--text-size-mob);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--orange-1-clr);
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
+  }
+
+  .left__btn-mob:focus {
+    background-color: var(--orange-1-clr);
+    color: var(--white-clr);
+  }
+
+  .left__btn-mob:hover {
+    background-color: var(--orange-1-clr);
+    color: var(--white-clr);
+  }
+
+  .left__btn-mob:active {
+    border: 3px solid var(--orange-3-clr);
+    background-color: var(--orange-3-clr);
+    color: var(--white-clr);
+  }
+
+  .right__option {
+    /* min-height: 247px; */
+    outline: none;
+    padding: 0;
+    padding-top: 61px;
+    background-image: url(../icons/about-us-icon-1-mob.svg);
+    background-position: top left;
+    background-size: 64px 49px;
+
+  }
+
+  .option-1 {
+    background-image: url(../icons/about-us-icon-2-mob.svg);
+  }
+
+  .right__title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  .right__descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .right__option:not(:last-child) {
+    margin-bottom: 33px;
+  }
+
+
+  /* QUESTION */
+
+  .question {
+    padding-top: 25px;
+    margin-bottom: 59px;
+  }
+
+  .question .title-section {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  .accordion__btn {
+    font-size: 20px;
+    padding-right: 40px;
+    min-height: 111px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .accordion__item:first-child .accordion__btn {
+    padding-top: 31px;
+  }
+
+  .accordion__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px
+  }
+
+  .accordion__btn::after {
+    width: 30px;
+    height: 30px;
+
+  }
+
+  /* FOOTER */
+
+  .footer {
+    padding-top: 27px;
+  }
+
+  .form__title {
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+  }
+
+  .form {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .form__input {
+    padding: 14px 20px;
+  }
+
+  .form__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .form__text {
+    margin-bottom: 23px;
+  }
+
+  .form__btn {
+    width: 180px;
+    min-height: 39px;
+    margin-bottom: 13px;
+    padding: 12px 22px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .form__divader {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #414141;
+  }
+
+  .footer__img-link {
+    width: 131px;
+    height: 42px;
+  }
+
+  .footer__contacts {
+    align-items: center;
+    margin: 0;
+  }
+
+  .footer__img-link {
+    margin-bottom: 16px;
+  }
+
+  .social__link-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social__link:not(:last-child) {
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .about-us__left {
+    min-height: 200px;
+  }
+}

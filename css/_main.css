@@ -13,6 +13,11 @@
 .main__content {
   position: relative;
   z-index: 11;
+  pointer-events: none;
+}
+
+.main__content > * {
+  pointer-events: auto;
 }
 
 

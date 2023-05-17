@@ -1,6 +1,6 @@
 // Бургер-меню
 let burger = document.querySelector('.header__burger');
-let menu = document.querySelector('.header__list');
+let menu = document.querySelector('.header__list-wrap');
 let menuLinks = document.querySelectorAll(".header__link");
 // Кнопка поиска
 let searchBtn = document.querySelector(".header__btn");
